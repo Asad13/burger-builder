@@ -1,0 +1,17 @@
+.summary {
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.priceContainer::after {
+  content: "";
+  display: table;
+  clear: both;
+}

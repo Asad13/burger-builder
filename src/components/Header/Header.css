@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 9vh;
+  overflow: hidden;
+  background: #fcba03;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 9vh;
+}

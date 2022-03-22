@@ -1,0 +1,11 @@
+.ingredient {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient img {
+  display: block;
+  width: 80%;
+  flex: 80%;
+  max-width: 300px;
+}
